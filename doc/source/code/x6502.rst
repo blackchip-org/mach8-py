@@ -1,0 +1,66 @@
+:mod:`mach8.x6502` --- NMOS 6502 Processor
+==========================================
+
+.. automodule:: mach8.x6502
+
+Instruction
+-----------
+.. autoclass:: mach8.x6502.Instruction
+   :members:
+
+Instruction Set
+---------------
+.. autofunction:: mach8.x6502.get_instruction_set
+
+CPU
+---
+.. autoclass:: mach8.x6502.CPU 
+   :members:
+
+Exit Codes
+----------
+.. _exit_codes:
+
+.. autodata:: mach8.x6502.EXIT_BREAK 
+.. autodata:: mach8.x6502.EXIT_BREAKPOINT 
+.. autodata:: mach8.x6502.EXIT_MONITOR
+.. autodata:: mach8.x6502.EXIT_STEP
+.. autodata:: mach8.x6502.EXIT_STOP
+.. autodata:: mach8.x6502.EXIT_TRAP
+
+String Constants
+----------------
+.. data::
+   mach8.x6502.A
+   mach8.x6502.X
+   mach8.x6502.Y
+   mach8.x6502.SP
+   mach8.x6502.SR
+
+   String names for the registers. 
+
+.. data::
+   mach8.x6502.C
+   mach8.x6502.Z
+   mach8.x6502.I
+   mach8.x6502.D
+   mach8.x6502.B
+   mach8.x6502.V
+   mach8.x6502.N
+
+   String names for the flags. 
+
+Exceptions
+----------
+
+.. autoexception:: mach8.x6502.StopProcessor
+
+
+
+
+
+
+
+
+
+

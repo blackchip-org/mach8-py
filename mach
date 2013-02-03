@@ -1,0 +1,6 @@
+#!/bin/bash
+
+BASEDIR=$(dirname $0) 
+PYTHONPATH=$BASEDIR/source exec python -O -m mach8.console $@
+
+ 

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+find . -name "*.py" -exec svn propset svn:keywords "Id Revision Date" {} \;
+
